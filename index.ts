@@ -144,6 +144,6 @@ app.get("/", (req, res) => {
 // });
 
 // Server listening
-server.listen(7860, () => {
-  console.log("Server is running on port 7860");
+server.listen(3000, () => {
+  console.log("Server is running on port 3000");
 });

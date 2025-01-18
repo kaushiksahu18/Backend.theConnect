@@ -5,16 +5,14 @@
   "main": "index.ts",
   "scripts": {
     "build": "tsc -b",
-    "start": "pm2 start dist/index.js",
-    "dev": "tsc -b && pm2 start dist/index.js",
-    "devn": "tsc -b && node dist/index.js"
+    "start": "node dist/index.js",
+    "dev": "tsc -b && node dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "pm2": "^5.4.3",
     "typescript": "^5.7.2",
     "ws": "^8.18.0"
   },
